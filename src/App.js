@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Left1 from './components/Left1';
+import Right1 from './components/Right1';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="container">
+      <h3>redux-react test</h3>
+      <div id="grid">
+        <Left1 />
+        <Right1 />
+      </div>
     </div>
   );
 }
