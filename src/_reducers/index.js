@@ -3,7 +3,7 @@ import { INCREMENT, DECREMENT, SET_COLOR } from '../_actions/types';
 // 초기 state 정의
 const initialState = {
   number: 0,
-  color: 'red',
+  color: 'black',
 };
 
 /* 
